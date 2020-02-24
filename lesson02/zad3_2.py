@@ -1,0 +1,5 @@
+n = int(input("Enter: "))
+a = int(str(n) + str(n))
+b = int(str(n) + str(n) + str(n))
+summa = (n + a + b)
+print(f"{n} + {a} + {b} = {summa}")
